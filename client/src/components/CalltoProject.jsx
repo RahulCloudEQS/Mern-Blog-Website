@@ -1,0 +1,29 @@
+import { Button } from "flowbite-react";
+
+export default function CalltoProject() {
+  return (
+    <div className="flex flex-col sm:flex-row p-3 border border-teal-500 justify-center items-center rounded-tl-3xl rounded-br-3xl text-center">
+      <div className="flex-1 justify-center flex flex-col">
+        <h2 className="text-xl space-y-2">
+          <p> If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.</p> 
+        </h2>
+        <p className="text-gray-500 my-2">Lets Connect</p>
+        <Button
+          gradientDuoTone="purpleToPink"
+          className="rounded-tl-xl rounded-bl-none"
+        >
+          <a
+            href="https://rahul87654.github.io/Portfolio-Rahul/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mine Portfolio website to Checkout
+          </a>
+        </Button>
+      </div>
+      <div className="p-7 flex-1">
+        <img src="https://res.cloudinary.com/dmmdqqvdl/image/upload/v1736671918/ephptex0hpdtrhdijjdy.jpg" />
+      </div>
+    </div>
+  );
+}
