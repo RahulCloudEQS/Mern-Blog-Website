@@ -120,7 +120,7 @@ export default function Header() {
         <Navbar.Link active={path === '/projects'} as={'div'}>
           <Link to='/projects'>Projects</Link>
         </Navbar.Link>
-        <Navbar.Link as="a" href="https://rahul87654.github.io/Portfolio-Rahul/" target="_blank">
+        <Navbar.Link as="a" href="https://portfolio-uesh.onrender.com" target="_blank">
           Portfolio
         </Navbar.Link>
 
