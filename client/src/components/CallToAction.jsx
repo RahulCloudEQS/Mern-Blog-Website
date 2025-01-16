@@ -18,7 +18,7 @@ export default function CallToAction() {
           className="rounded-tl-xl rounded-bl-none"
         >
           <a
-            href="https://rahul87654.github.io/Portfolio-Rahul/"
+            href="https://portfolio-uesh.onrender.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
