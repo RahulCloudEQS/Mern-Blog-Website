@@ -22,7 +22,7 @@ export default function FooterCom() {
               <Footer.Title title='About' />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://rahul87654.github.io/Portfolio-Rahul/"
+                  href="https://portfolio-uesh.onrender.com/"
                   target='_blank'
                   rel='noopener noreferrer'
                 >
